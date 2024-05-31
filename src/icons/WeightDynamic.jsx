@@ -11,28 +11,26 @@ const WeightDynamic = (props) => (
     {...props}
   >
     <path
-      d="M12.4409 9.1272L11.0322 14.7619L15.9626 21.1009"
+      d="M1 20V19C1 15.134 4.13401 12 8 12V12C11.866 12 15 15.134 15 19V20"
+      stroke="black"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+    />
+    <path
+      d="M13 14V14C13 11.2386 15.2386 9 18 9V9C20.7614 9 23 11.2386 23 14V14.5"
+      stroke="black"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+    />
+    <path
+      d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z"
       stroke="black"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
-      d="M10.3278 18.2834L8.21484 21.1008"
-      stroke="black"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M8.21484 13.3532C8.21484 9.40895 11.0323 9.12721 12.4409 9.12723L13.8494 9.1272C14.0842 10.3011 15.1172 12.7897 17.3711 13.3532"
-      stroke="black"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M13 7C14.1046 7 15 6.10457 15 5C15 3.89543 14.1046 3 13 3C11.8954 3 11 3.89543 11 5C11 6.10457 11.8954 7 13 7Z"
+      d="M18 9C19.6569 9 21 7.65685 21 6C21 4.34315 19.6569 3 18 3C16.3431 3 15 4.34315 15 6C15 7.65685 16.3431 9 18 9Z"
       stroke="black"
       strokeWidth={1.5}
       strokeLinecap="round"
