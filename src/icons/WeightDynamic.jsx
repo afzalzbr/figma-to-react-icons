@@ -11,14 +11,28 @@ const WeightDynamic = (props) => (
     {...props}
   >
     <path
-      d="M12 22V13M12 13L15.5 16.5M12 13L8.5 16.5"
+      d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z"
       stroke="black"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
-      d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073"
+      d="M3 10V6C3 4.89543 3.89543 4 5 4H7"
+      stroke="black"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M7 2V6"
+      stroke="black"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5"
       stroke="black"
       strokeWidth={1.5}
       strokeLinecap="round"
